@@ -1,8 +1,0 @@
---cpu Cortex-M4.fp
-".\main.o"
-".\startup_tm4c123.o"
-".\tm4c123gh6pm.o"
---strict --scatter ".\lcd.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\lcd.map" -o .\lcd.axf
